@@ -1,6 +1,10 @@
 {% if (is_post() and page.comments) %}
+  <!--
   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  -->
+  <link rel="stylesheet" href="/attaches/assets/gitment/gitment.css">
+  <script src="/attaches/assets/gitment/gitment.js"></script>
   <script>
     const gitment = new Gitment({
       id: '{{ page.path }}', // optional
